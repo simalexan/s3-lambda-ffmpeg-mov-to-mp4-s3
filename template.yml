@@ -4,7 +4,7 @@ Description: A serverless component for conversion from MOV to MP4
 Parameters:
   ConversionTimeout:
     Type: Number
-    Default: 60
+    Default: 180
   InputS3BucketName:
     Type: String
     Default: 's3-lambda-ffmpeg-input-mov-bucket'

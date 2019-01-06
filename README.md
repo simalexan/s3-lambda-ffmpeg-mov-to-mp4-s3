@@ -15,7 +15,7 @@ This is a serverless component that takes uploaded MOV video files from one S3 B
 
 This component has one CloudFormation deployment parameter:
 
-- `ConversionTimeout`, an optional parameter, represents the timeout of the Conversion Lambda function. By default its 60 seconds.
+- `ConversionTimeout`, an optional parameter, represents the timeout of the Conversion Lambda function. By default it's 180 seconds.
 
 ## Latest Release - 1.0.0
 
